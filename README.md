@@ -27,6 +27,18 @@ Enter your list ID (which new subscribers will be added to):
 
 `$listid = 1;`
 
+By default the form looks very basic (to keep it simple):
+
+<img src="http://d226aj4ao1t61q.cloudfront.net/lh6j62tc7_screenshot2013-06-12at9.21.44am.jpg" />
+
+If you want to include a **first** and **last name** in the form, feel free to add new fields. Then in the PHP code, make sure to comment out the default values:
+
+<pre>
+// these values should come across from the form (make sure to name them the same as below)
+//$_POST["first_name"] = "";
+//$_POST["last_name"] = "";
+</pre>
+
 **Optional:** If your autoresponder relies on a segment that looks at a custom field value, include any custom field values in the `$_POST` array:
 
 `$_POST["field"] = array("%PERS_1%,0" => "Custom field value");`
