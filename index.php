@@ -22,6 +22,8 @@
 		$response = $ac->api("subscriber/add", $_POST);
 $ac->dbg($response);
 
+		// do something else here, like update a DIV below with the above result message?
+		// try outputting something like $response->result_message
 		exit();
 
 	}
