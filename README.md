@@ -40,6 +40,12 @@ geturl = $j.ajax({
   url: '', // the URL to this page.
 </pre>
 
+If you **don't** use Ajax, update the HTML form element to include the URL:
+
+<pre>
+&lt;form id="subscribe_form" method="post" action="URL TO THIS PAGE"&gt;
+</pre>
+
 ## Documentation and Links
 
 * [Full API documentation](http://activecampaign.com/api)
@@ -47,4 +53,4 @@ geturl = $j.ajax({
 
 ## Reporting Issues
 
-We'd love to help if you have questions or problems. Report issues using the [Github Issue Tracker](https://github.com/ActiveCampaign/example-subscription_form_embed/issues) or email help@activecampaign.com.
+We'd love to help if you have questions or problems. Report issues using the [Github Issue Tracker](https://github.com/ActiveCampaign/example-add_subscriber_send_instant/issues) or email help@activecampaign.com.
