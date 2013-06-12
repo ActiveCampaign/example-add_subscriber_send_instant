@@ -41,7 +41,7 @@ $ac->dbg($response);
 
 	<div id="form_result_message"></div>
 
-	<form id="subscribe_form" method="post">
+	<form id="subscribe_form">
 		<input type="email" name="email" />
 		<input type="button" value="Subscribe!" />
 	</form>
